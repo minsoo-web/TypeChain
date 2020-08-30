@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", // nodejs 를 평범하게 사용할 수 있게
+    "target": "ES2015", // 어떤 버전의 javascript 로 컴파일 될지
+    "sourceMap": true, // sourceMap 처리를 할 지 말지
+    "outDir": "dist"
+  },
+  "include": ["./src/**/*"], // 어떤 파일들이 컴파일 과정에 포함되는지를 설정
+  "exclude": ["node_modules"]
+}
